@@ -7,3 +7,11 @@
 ### Creating components
 
 1.  QuestionCard component
+
+### Creating API.ts
+
+    Configuration for api request
+
+### Creating utils.ts
+
+    Configuration for shuffling array and exporting it to API file
