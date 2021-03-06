@@ -1,9 +1,8 @@
 
 import styled, {createGlobalStyle} from "styled-components";
 
-// <span>Photo by <a href="https://unsplash.com/@divya_agrawal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Divya Agrawal</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
-import BGImage from "./img/divya-agrawal-nhsrIwaz73M-unsplash.jpg";
+// <span>Photo by <a href="https://unsplash.com/@randomlies?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ashim D’Silva</a> on <a href="https://unsplash.com/t/architecture?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+import BGImage from "./img/ashim-d-silva-3Ijt7UkSBYE-unsplash.jpg";
 
 
 export const GlobalStyle=createGlobalStyle`
@@ -15,10 +14,11 @@ export const GlobalStyle=createGlobalStyle`
         background-image:url(${BGImage});
         background-size:cover;
         margin:0;
-        padding:0 20px;
+        padding:5px 20px;
         display:flex;
         justify-content:center;
     }
+  
 
     *{
         box-sizing:border-box;
@@ -32,11 +32,11 @@ export const Wrapper=styled.div`
     align-items:center;
 
     >p{
-        color:#4747e5;
+        color:orangered;
     }
 
     .score{
-        color:#4747e5;
+        color:orangered;
         font-size:2rem;
         margin:0;
     }
@@ -47,10 +47,6 @@ export const Wrapper=styled.div`
         font-size:70px;
         text-align:center;
         background-clip:text;
-        // --webkit-background-clip:text;
-        // --webkit-text-fill-color:transparent;
-        // --moz-background-clip:text;
-        // --moz-text-fill-color:transparent;
         filter:drop-shadow(2px 2px #0085a3);
         font-weight:400;
         margin:20px;
