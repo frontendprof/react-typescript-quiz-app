@@ -6,4 +6,4 @@
 
 ### Creating components
 
-1.  hahdasdflkjas
+1.  QuestionCard component
