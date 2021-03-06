@@ -14,10 +14,12 @@
 2.  Check request response against correct_answer
 3.  Render all questions and handle button click event on correct answer
 4.  Implement next question button logic
+5.  App component styles
 
 ### Creating components
 
 1.  QuestionCard component
+2.  QuestionCard styles
 
 ### Creating API.ts
 
